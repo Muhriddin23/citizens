@@ -55,13 +55,13 @@ h1 {
 h2 {
     font-size: 45px;
     font-weight: 300;
-    color: #633991;
+    color: #4dd32b;
     letter-spacing: -1px;
     margin-bottom: 1rem;
 }
 
 h3 {
-    color: #633991;
+    color: #4dd32b;
     font-size: 33px;
     font-weight: 500;
 }
@@ -69,13 +69,13 @@ h3 {
 h4 {
     font-size: 20px;
     font-weight: 500;
-    color: #633991;
+    color: #4dd32b;
 }
 
 h5 {
     font-size: 28px;
     font-weight: 300;
-    color: #633991;
+    color: #0c45be;
     margin-bottom: 0.7rem;
 }
 
@@ -105,15 +105,15 @@ p.lead {
 }
 
 .btn-outline-light:hover {
-    color: #d6619c;
+    color: #4dd32b;
 }
 
 .btn-primary {
     border-radius: 3px;
-    background-image: -moz-linear-gradient(122deg, #e54595 0%, #fd378e 100%);
-    background-image: -webkit-linear-gradient(122deg, #e54595 0%, #fd378e 100%);
-    background-image: -ms-linear-gradient(122deg, #e54595 0%, #fd378e 100%);
-    background-image: linear-gradient(122deg, #e54595 0%, #fd378e 100%);
+    background-image: -moz-linear-gradient(122deg, #0c45be 0%, #4dd32b 100%);
+    background-image: -webkit-linear-gradient(122deg, #0c45be 0%, #4dd32b 100%);
+    background-image: -ms-linear-gradient(122deg, #0c45be 0%, #4dd32b 100%);
+    background-image: linear-gradient(122deg, #0c45be 0%, #4dd32b 100%);
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.2);
     font-weight: 500;
     padding: 0.6rem 2rem;
@@ -126,7 +126,7 @@ p.lead {
 .btn-primary:not([disabled]):not(.disabled).active,
 .btn-primary:not([disabled]):not(.disabled):active,
 .show>.btn-primary.dropdown-toggle {
-    background-image: linear-gradient(122deg, #fd378e 0%, #e54595 100%);
+    background-image: linear-gradient(122deg, #0c45be 0%, #4dd32b 100%);
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.3);
     color: #FFF;
 }
@@ -188,8 +188,8 @@ p.lead {
 .nav-menu.is-scrolling,
 .nav-menu.menu-is-open {
     background-color: rgb(74, 13, 143);
-    background: -moz-linear-gradient(135deg, rgb(74, 13, 143) 0%, rgb(250, 42, 143) 100%);
-    background: -webkit-linear-gradient(135deg, rgb(74, 13, 143) 0%, rgb(250, 42, 143) 100%);
+    background: -moz-linear-gradient(135deg, rgb(12, 69, 190) 0%, rgb(77, 211, 43) 100%);
+    background: -webkit-linear-gradient(135deg, rgb(12, 69, 190) 0%, rgb(77, 211, 43) 100%);
     background: linear-gradient(135deg, rgb(12, 69, 190) 0%, rgb(77, 211, 43) 100%);
     -webkit-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
@@ -243,9 +243,9 @@ header {
 }
 
 .bg-gradient {
-    background-image: -moz-linear-gradient(135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
-    background-image: -webkit-linear-gradient(135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
-    background-image: -ms-linear-gradient(135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
+    background-image: -moz-linear-gradient(135deg, rgb(12, 69, 190) 0%, rgb(77, 211, 43) 100%);
+    background-image: -webkit-linear-gradient(135deg, rgb(12, 69, 190) 0%, rgb(77, 211, 43) 100%);
+    background-image: -ms-linear-gradient(135deg, rgb(12, 69, 190) 0%, rgb(77, 211, 43) 100%);
     background-image: linear-gradient(135deg, rgb(12, 69, 190), rgb(77, 211, 43));
 }
 
@@ -285,9 +285,10 @@ header {
 
 .gradient-fill:before {
     color: #fc73b4;
-    background: -moz-linear-gradient(top, #9477b4 0%, #fc73b4 100%);
-    background: -webkit-linear-gradient(top, #9477b4 0%, #fc73b4 100%);
-    background: linear-gradient(to bottom, #9477b4 0%, #fc73b4 100%);
+    background: -moz-linear-gradient(top, #0c45be 0%, #4dd32b 100%);
+    background: -webkit-linear-gradient(top, #0c45be 0%, #4dd32b 100%);
+    /* background: linear-gradient(to bottom, #000 0%, #000 100%); */
+    background: linear-gradient(135deg, #0c45be, #4dd32b);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -315,9 +316,9 @@ header {
     position: absolute;
     width: 3px;
     color: #fc73b4;
-    background: -moz-linear-gradient(top, #9477b4 0%, #fc73b4 100%);
-    background: -webkit-linear-gradient(top, #9477b4 0%, #fc73b4 100%);
-    background: linear-gradient(to bottom, #9477b4 0%, #fc73b4 100%);
+    background: -moz-linear-gradient(top, #0c45be, #4dd32b 100%);
+    background: -webkit-linear-gradient(top, #0c45be, #4dd32b 100%);
+    background: linear-gradient(to bottom, #0c45be, #4dd32b);
     top: 0;
     bottom: 0;
     left: 0;
@@ -351,7 +352,7 @@ header {
     border-radius: 50%;
     margin-bottom: 1.5rem;
     background-color: #FFF;
-    color: #f5378e;
+    color: #0c45be;
     font-size: 48px;
     text-align: center;
     line-height: 80px;
@@ -369,10 +370,10 @@ header {
 }
 
 .ui-steps li:hover .circle-icon {
-    background-image: -moz-linear-gradient(122deg, #e6388e 0%, #fb378e 100%);
-    background-image: -webkit-linear-gradient(122deg, #e6388e 0%, #fb378e 100%);
-    background-image: -ms-linear-gradient(122deg, #e6388e 0%, #fb378e 100%);
-    background-image: linear-gradient(122deg, #e6388e 0%, #fb378e 100%);
+    background-image: -moz-linear-gradient(122deg, #4dd32b 0%, #4dd32b 100%);
+    background-image: -webkit-linear-gradient(122deg, #4dd32b 0%, #4dd32b 100%);
+    background-image: -ms-linear-gradient(122deg, #4dd32b 0%, #4dd32b 100%);
+    background-image: linear-gradient(122deg, #4dd32b 0%, #4dd32b 100%);
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.09);
     color: #FFF;
 }
@@ -439,8 +440,8 @@ header {
 .nav-tabs .nav-link.active {
     background: #FFF;
     border-top-width: 3px;
-    border-color: #ce75b4 #faf6fb #FFF;
-    color: #633991;
+    border-color: #4dd32b #faf6fb #FFF;
+    color: #0c45be;
 }
 
 
@@ -498,13 +499,14 @@ header {
 }
 
 .owl-theme .owl-dots .owl-dot:hover span {
-    background: #ff487e;
+    background: #4dd32b;
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
-    background: #ff487e;
+    background: #4dd32b;
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.07);
 }
+
 
 
 /*  IMAGE GALLERY
@@ -650,4 +652,17 @@ header {
         text-align: center;
         margin-top: 2rem;
     }
+}
+
+.googleplay {
+    max-width: 158px;
+    width: 100%;
+    height: 60px;
+}
+
+.appstore {
+    border-radius: 5px;
+    max-width: 138px;
+    width: 100%;
+    height: 38px;
 }
