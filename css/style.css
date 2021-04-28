@@ -37,12 +37,12 @@ body {
 }
 
 a {
-    color: #e38cb7;
+    color: #2f67de;
 }
 
 a:hover,
 a:focus {
-    color: #d6619c;
+    color: #2f67de;
 }
 
 h1 {
@@ -55,13 +55,13 @@ h1 {
 h2 {
     font-size: 45px;
     font-weight: 300;
-    color: #4dd32b;
+    color: #0c45be;
     letter-spacing: -1px;
     margin-bottom: 1rem;
 }
 
 h3 {
-    color: #4dd32b;
+    color: #0c45be;
     font-size: 33px;
     font-weight: 500;
 }
@@ -69,7 +69,7 @@ h3 {
 h4 {
     font-size: 20px;
     font-weight: 500;
-    color: #4dd32b;
+    color: #2f67de;
 }
 
 h5 {
@@ -84,12 +84,12 @@ p {
 }
 
 p.lead {
-    color: #e38cb7;
+    color: #2f67de;
     margin-bottom: 2rem;
 }
 
 .text-primary {
-    color: #e38cb7 !important;
+    color: #2f67de !important;
 }
 
 .light-font {
@@ -252,7 +252,7 @@ header {
 .tagline {
     font-size: 23px;
     font-weight: 300;
-    color: #ffb8f6;
+    color: white !important;
     max-width: 800px;
     margin: 0 auto;
 }
@@ -373,9 +373,10 @@ header {
     background-image: -moz-linear-gradient(122deg, #4dd32b 0%, #4dd32b 100%);
     background-image: -webkit-linear-gradient(122deg, #4dd32b 0%, #4dd32b 100%);
     background-image: -ms-linear-gradient(122deg, #4dd32b 0%, #4dd32b 100%);
-    background-image: linear-gradient(122deg, #4dd32b 0%, #4dd32b 100%);
+    background-image: linear-gradient(122deg, white 0%, white 100%);
+    border: 5px solid #4dd32b;
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.09);
-    color: #FFF;
+    color: #4dd32b;
 }
 
 .ui-steps li {
@@ -440,7 +441,7 @@ header {
 .nav-tabs .nav-link.active {
     background: #FFF;
     border-top-width: 3px;
-    border-color: #4dd32b #faf6fb #FFF;
+    border-color: #0c45be #faf6fb #FFF;
     color: #0c45be;
 }
 
@@ -638,13 +639,13 @@ header {
     line-height: 50px;
     margin: 0 0.3rem;
     border-radius: 5px;
-    color: #f4c9e2;
+    color: #95a7ce;
     transition: all 0.3s ease;
 }
 
 .social-icons a:hover {
     text-decoration: none;
-    color: #e38cb7;
+    color: #0c45be;
 }
 
 @media (max-width:991px) {
