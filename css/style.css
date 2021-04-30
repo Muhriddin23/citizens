@@ -671,3 +671,31 @@ header {
 .frequently__change {
     margin-top: 40px;
 }
+
+.new__owl {
+   /* height: 700px;
+   width: 250px; */
+ height: 100%;
+ width: 100%;
+}
+@media (max-width:768px) {
+    .new__owl {
+        height: 60% !important;
+        width: 60% !important;
+        margin: 0 auto !important;
+    }
+}
+
+@media (max-width:576px) {
+    .new__owl{
+        height: 50% !important;
+        width: 50% !important;
+        
+        margin: 0 auto !important;
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+    }
+}
+
+
