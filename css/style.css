@@ -374,9 +374,9 @@ header {
     background-image: -webkit-linear-gradient(122deg, #4dd32b 0%, #4dd32b 100%);
     background-image: -ms-linear-gradient(122deg, #4dd32b 0%, #4dd32b 100%);
     background-image: linear-gradient(122deg, white 0%, white 100%);
-    border: 5px solid #0c45be;
+    border: 2px solid #4daffe;
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.09);
-    color: #0c45be;
+    color: #4daffe;
 }
 
 .ui-steps li {
@@ -673,11 +673,12 @@ header {
 }
 
 .new__owl {
-   /* height: 700px;
+    /* height: 700px;
    width: 250px; */
- height: 100%;
- width: 100%;
+    height: 100%;
+    width: 100%;
 }
+
 @media (max-width:768px) {
     .new__owl {
         height: 60% !important;
@@ -687,15 +688,13 @@ header {
 }
 
 @media (max-width:576px) {
-    .new__owl{
+    .new__owl {
         height: 50% !important;
         width: 50% !important;
-        
+
         margin: 0 auto !important;
         /* display: flex;
         align-items: center;
         justify-content: center; */
     }
 }
-
-
