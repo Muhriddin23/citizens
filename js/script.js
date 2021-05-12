@@ -110,3 +110,58 @@ $(function() {
     }
 
 }); /* End Fn */
+
+var arrLang = {
+    'uz': {
+        'asosiy': 'ASOSIY',
+        'xususiyatlari': 'XUSUSIYATLARI',
+        'yoriqnoma': 'YORIQNOMA',
+        'funksiya': 'FUNKSIYALAR',
+        'aloqalar': 'ALOQALAR',
+        'yuklab olish': 'Yuklab olish',
+        'headertext': 'Fuqarolar va masul shaxslar o\'rtasidagi ishonchli va soddalashtirilgan munosabatlarni qollab-quvvatlovchi mobil ilova uy - joy kommunal muammolarini hal qilish maqsadida tashkilotlar. ',
+        'xususiyat': 'Ilova xususiyatlari',
+        'interfeys': 'Interfeys',
+        'interfeysinfo': 'Ilova o\'z foydalanuvchilarini zamonaviy dizayni va foydalanish qulayligi bilan xursand qiladi',
+        'sozlamalar': 'Sozlamalar',
+        'sozlamalarinfo': 'Ma\'lumotlaringizni tahrirlashingiz, shuningdek bildirishnoma sozlamalarini sozlashingiz mumkin',
+        'xafsizlik': 'Xafsizlik',
+        'xafsizlikinfo': 'Siz taqdim etgan barcha ma\'lumotlar maxfiylik sharoitida qayta ishlanadi va uni hechkim ko\'ra olmaydi',
+        'geolakatsiya': 'Geolokatsiya',
+        'geolakatsiyainfo': 'Muammo to\'g\'risidagi hisobotni topshirishda sizning joylashuvingizni qo\'lda ko\'rsatishingiz shart emas. Ilova avtomatik ravishda sizning xabaringiz shaharning qaysi nuqtasidan kelishini aniqlaydi.',
+        'qandayish': 'Citizens qanday ishlaydi?',
+        'ishgatushiring': 'Qurilmangizda Citizens dasturini ishga tushiring',
+        'ishgatushiringinfo': 'Muammoni samarali hal qilish endi sizning smartfoningizda. Fuqarolar bilan shaharni obodonlashtirishga o\'z hissangizni qo\'shing. Eng yaxshi versiyasi uchun ilovani tez-tez yangilab turishni unutmang!',
+    },
+    'ru': {
+        'asosiy': 'ГЛАВНЫЙ',
+        'xususiyatlari': 'ОСОБЕННОСТИ',
+        'yoriqnoma': 'ИНСТРУКЦИИ',
+        'funksiya': 'ФУНКЦИИ',
+        'aloqalar': 'КОНТАКТЫ',
+        'yuklab olish': 'Скачать',
+        'headertext': 'Мобильное приложение поддерживающее надежные и упрощенные взаимоотношения между гражданами и ответственными организациями в целях решения жилищно- коммунальных проблем.',
+        'xususiyat': 'Особенности приложения',
+        'interfeys':'Интерфейс',
+        'interfeysinfo': 'Приложение радует своих пользователей стильным дизайном и удобством в использовании',
+        'sozlamalar': 'Sozlamalar',
+        'sozlamalarinfo': 'Вы можете редактировать свои данные, а так же регулировать настройки уведомлений',
+        'xafsizlik': 'Безопасность',
+        'xafsizlikinfo': 'Все данные предоставленные вами обрабатываются в рамках условий конфиденциальности',
+        'geolakatsiya': 'Геолокация',
+        'geolakatsiyainfo': 'При отправлении сообщения о проблеме вам ненужно вручную указывать свое местонахождение. Приложение автоматически определяет с какой точки города поступает ваше сообщение.',
+        'qandayish': 'Как работает Citizens?',
+        'ishgatushiring': 'Запустите Citizens в своем устройстве',
+        'ishgatushiring': 'Эффективное решение проблем теперь в Вашем смартфоне. Внесите свой вклад в облагораживание города вместе с Citizens.Не забывайте чаще обновлять приложение, чтобы пользоваться самой совершенной версией!',
+    }
+}
+
+$(function () {
+    $('.translate').click(function () {
+        var lang = $(this).attr('id');
+
+        $('.lang').each(function (index, item) {
+            $(this).text(arrLang[lang][$(this).attr('key')]);
+        });
+    });
+});
