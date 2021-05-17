@@ -298,6 +298,7 @@ header {
     .img-holder {
         padding-bottom: 50%;
     }
+
 }
 
 @media (max-width:767px) {
@@ -684,6 +685,18 @@ header {
         text-align: center;
         margin-top: 2rem;
     }
+
+    .navbar-nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .translate {
+        margin-top: 10px;
+    }
+
+
 }
 
 .googleplay {
@@ -709,6 +722,8 @@ header {
     height: 100%;
     width: 100%;
 }
+
+
 
 @media (max-width:768px) {
     .new__owl {

@@ -138,6 +138,10 @@ var arrLang = {
         'xabarinfo': 'O\'zingiz duch kelgan muammoni suratga oling, ro\'yxatidan uning turini tanlang va muammoning mohiyatini qisqacha tavsiflang',
         'rezultat': 'Natijani oling',
         'rezultatinfo': 'Xabarni yuborilganidan so\'ng, mas\'ul tashkilotlar tez orada muammoni ko\'rib chiqadilar va ko\'rilgan choralar to\'g\'risida xabar berishadi',
+        'insrtuksiya': 'Citizensni ichida nima bor',
+        'zagruzit': 'Yuklab olish',
+        'zagruzitinfo': 'Mobil dastur AppStore va PlayMarket platformalarida mavjud. Citizensga hoziroq qo\'shiling.',
+        'adres': '9 Ziyolilar ko\'chasi, Тошкент',
     },
     'ru': {
         'asosiy': 'ГЛАВНЫЙ',
@@ -164,7 +168,11 @@ var arrLang = {
         'xabar': 'Отправьте сообщение',
         'xabarinfo': 'Сфотографируйте проблему с которой Вы столкнулись, выберите ее тип из списка и кратко опишите суть проблемы',
         'rezultat': 'Получите результат',
-        'rezultatinfo': '',
+        'rezultatinfo': 'После отправки сообщения в ближайшее время ответственные организации рассмотрят проблему и оповестят о принятых мерах',
+        'insrtuksiya': 'Что внутри Citizens',
+        'zagruzit': 'Загрузить',
+        'zagruzitinfo': '',
+        'adres': 'Ул. Зиёлилар 9, Ташкент',
     }
 }
 
