@@ -132,6 +132,12 @@ var arrLang = {
         'qandayish': 'Citizens qanday ishlaydi?',
         'ishgatushiring': 'Qurilmangizda Citizens dasturini ishga tushiring',
         'ishgatushiringinfo': 'Muammoni samarali hal qilish endi sizning smartfoningizda. Fuqarolar bilan shaharni obodonlashtirishga o\'z hissangizni qo\'shing. Eng yaxshi versiyasi uchun ilovani tez-tez yangilab turishni unutmang!',
+        'zaregistyratsiya': 'Ro\'yxatdan o\'ting',
+        'zaregistyratsiyainfo': 'Ro\'yxatdan o\'tish uchun telefon raqamingizni kiriting va raqamingizga SMS orqali yuborilgan kodni kiriting, shuningdek ismingizni kiriting va familiyagizni',
+        'xabar': 'Xabar yuboring',
+        'xabarinfo': 'O\'zingiz duch kelgan muammoni suratga oling, ro\'yxatidan uning turini tanlang va muammoning mohiyatini qisqacha tavsiflang',
+        'rezultat': 'Natijani oling',
+        'rezultatinfo': 'Xabarni yuborilganidan so\'ng, mas\'ul tashkilotlar tez orada muammoni ko\'rib chiqadilar va ko\'rilgan choralar to\'g\'risida xabar berishadi',
     },
     'ru': {
         'asosiy': 'ГЛАВНЫЙ',
@@ -152,7 +158,13 @@ var arrLang = {
         'geolakatsiyainfo': 'При отправлении сообщения о проблеме вам ненужно вручную указывать свое местонахождение. Приложение автоматически определяет с какой точки города поступает ваше сообщение.',
         'qandayish': 'Как работает Citizens?',
         'ishgatushiring': 'Запустите Citizens в своем устройстве',
-        'ishgatushiring': 'Эффективное решение проблем теперь в Вашем смартфоне. Внесите свой вклад в облагораживание города вместе с Citizens.Не забывайте чаще обновлять приложение, чтобы пользоваться самой совершенной версией!',
+        'ishgatushiringinfo': 'Эффективное решение проблем теперь в Вашем смартфоне. Внесите свой вклад в облагораживание города вместе с Citizens.Не забывайте чаще обновлять приложение, чтобы пользоваться самой совершенной версией!',
+        'zaregistyratsiya': 'Зарегистрируйтесь',
+        'zaregistyratsiyainfo': 'Для регистрации укажите свой номер телефона и введите код отправленный на Ваш номер СМС сообщением, а также укажите имя и фамилию',
+        'xabar': 'Отправьте сообщение',
+        'xabarinfo': 'Сфотографируйте проблему с которой Вы столкнулись, выберите ее тип из списка и кратко опишите суть проблемы',
+        'rezultat': 'Получите результат',
+        'rezultatinfo': '',
     }
 }
 
