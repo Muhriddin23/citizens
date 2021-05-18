@@ -552,14 +552,26 @@ header {
 }
 
 .img__logo-changed {
-    max-width: 30%;
-    height: auto;
+    width: 100px;
+    height: 60px;
 }
 
 .img-gallery .owl-item.center {
     transform: scale(1);
 }
 
+.footer-logo {
+    max-width: 100%;
+    max-height: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.hamkor{
+    max-width: 50%;
+    width: 0px;
+    height: 200px;
+    margin-left: 90px;
+}
 
 /*  PRICING
 ----------------------*/
@@ -723,7 +735,10 @@ header {
     width: 100%;
 }
 
+.geolacation {
+    margin-top: 20px;
 
+}
 
 @media (max-width:768px) {
     .new__owl {

@@ -113,7 +113,7 @@ $(function() {
 
 var arrLang = {
     'uz': {
-        'asosiy': 'ASOSIY',
+        'asosiy': 'BOSH SAHIFA',
         'xususiyatlari': 'XUSUSIYATLARI',
         'yoriqnoma': 'YORIQNOMA',
         'funksiya': 'FUNKSIYALAR',
@@ -129,7 +129,7 @@ var arrLang = {
         'xafsizlikinfo': 'Siz taqdim etgan barcha ma\'lumotlar maxfiylik sharoitida qayta ishlanadi va uni hechkim ko\'ra olmaydi',
         'geolakatsiya': 'Geolokatsiya',
         'geolakatsiyainfo': 'Muammo to\'g\'risidagi hisobotni topshirishda sizning joylashuvingizni qo\'lda ko\'rsatishingiz shart emas. Ilova avtomatik ravishda sizning xabaringiz shaharning qaysi nuqtasidan kelishini aniqlaydi.',
-        'qandayish': 'Citizens qanday ishlaydi?',
+        'qandayish': 'Citizens.uz qanday ishlaydi?',
         'ishgatushiring': 'Qurilmangizda Citizens dasturini ishga tushiring',
         'ishgatushiringinfo': 'Muammoni samarali hal qilish endi sizning smartfoningizda. Fuqarolar bilan shaharni obodonlashtirishga o\'z hissangizni qo\'shing. Eng yaxshi versiyasi uchun ilovani tez-tez yangilab turishni unutmang!',
         'zaregistyratsiya': 'Ro\'yxatdan o\'ting',
@@ -144,7 +144,7 @@ var arrLang = {
         'adres': '9 Ziyolilar ko\'chasi, Тошкент',
     },
     'ru': {
-        'asosiy': 'ГЛАВНЫЙ',
+        'asosiy': 'В НАЧАЛО',
         'xususiyatlari': 'ОСОБЕННОСТИ',
         'yoriqnoma': 'ИНСТРУКЦИИ',
         'funksiya': 'ФУНКЦИИ',
