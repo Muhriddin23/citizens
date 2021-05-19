@@ -566,7 +566,8 @@ header {
     padding-left: 15px;
     padding-right: 15px;
 }
-.hamkor{
+
+.hamkor {
     max-width: 50%;
     width: 0px;
     height: 200px;
@@ -740,7 +741,11 @@ header {
 
 }
 
-@media (max-width:768px) {
+
+
+
+
+ @media (max-width:768px) {
     .new__owl {
         height: 60% !important;
         width: 60% !important;
