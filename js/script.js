@@ -142,6 +142,8 @@ var arrLang = {
         'zagruzit': 'Yuklab olish',
         'zagruzitinfo': 'Mobil dastur AppStore va PlayMarket platformalarida mavjud. Citizensga hoziroq qo\'shiling.',
         'adres': '9 Ziyolilar ko\'chasi, Тошкент',
+        'hamkorlarimiz': 'Bizning hamkorlaimiz.',
+        'huquqlar': '2021 Barcha huquqlar himoyalangan',
     },
     'ru': {
         'asosiy': 'В НАЧАЛО',
@@ -171,8 +173,10 @@ var arrLang = {
         'rezultatinfo': 'После отправки сообщения в ближайшее время ответственные организации рассмотрят проблему и оповестят о принятых мерах',
         'insrtuksiya': 'Что внутри Citizens',
         'zagruzit': 'Загрузить',
-        'zagruzitinfo': '',
+        'zagruzitinfo': 'Мобильное приложение доступно на платформах AppStore и PlayMarket. Присоединяйтесь к Citizens прямо сейчас.',
         'adres': 'Ул. Зиёлилар 9, Ташкент',
+        'hamkorlarimiz': 'Наши партнеры.',
+        'huquqlar': '2021 Все права защищены'
     }
 }
 
@@ -185,3 +189,4 @@ $(function () {
         });
     });
 });
+
