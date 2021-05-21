@@ -752,6 +752,13 @@ header {
     margin-bottom: 50px;
 }
 
+.link-container {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
 @media (max-width:992px) {
     .asd {
         margin-top: 15px;
@@ -773,10 +780,10 @@ header {
         justify-content: center;
     }
 
-    .client__logos-title{
+    .client__logos-title {
         margin-bottom: 50px;
     }
-    
+
     .footer-logo {
         margin-top: 15px;
     }
@@ -784,6 +791,12 @@ header {
     .footer__contacts-title {
         margin-top: 20px;
     }
+
+    .link-container {
+        display: flex;
+        flex-direction: row;
+    }
+
 }
 
 @media (max-width:768px) {
@@ -803,5 +816,19 @@ header {
         /* display: flex;
         align-items: center;
         justify-content: center; */
+    }
+
+    .circle__icon-title {
+        font-size: 18px;
+    }
+
+    .footer-logo {
+        width: auto;
+        height: auto;
+    }
+
+    .link-container {
+        display: flex;
+        flex-direction: row;
     }
 }
