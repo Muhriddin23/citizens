@@ -4,8 +4,16 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Maxfiylik siyosati</title>
+  <title>Политика конфиденциальности</title>
+ 
   <link rel="stylesheet" href="./fonts/fontawesome-5/css/all.min.css" />
+  <link rel="shortcut icon" href="images/favicon.pvg" id="fav-shortcut" type="image/x-icon" />
+  <link rel="icon" href="images/favicon.svg" id="fav-icon" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+
+
+  
 
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
@@ -28,6 +36,18 @@
       box-shadow: rgba(160, 160, 160, 0.3) 0px 0px 50px;
       color: rgb(51, 51, 51);
     }
+
+    .lang_btn button{
+  height: 30px;
+  width: auto;
+  font-size: 14px;
+  border: 1px solid #4dd32b;
+  border-radius: 5px;
+  background: #4dd32b;
+  color: white;
+  display: inline-block;
+   
+  }
 
     @media (max-width: 1200px){
       body {
@@ -88,7 +108,7 @@
   </style>
 </head>
 <body>
-  <a class="fas fa-globe lang"></a>
+  <a onclick="switchLang()" class="lang_btn"> <button> Uz / Ru</button> </a>
   <div id="uzbek">
     <h2>Maxfiylik siyosati</h2>
     <p>Ilovadan foydalanishdan oldin foydalanuvchilar ushbu Maxfiylik siyosati shartlarini qabul qilishi shart.</p>
